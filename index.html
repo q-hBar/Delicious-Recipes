@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🍳 Delicious Recipes</h1>
+            <p class="tagline">Discover amazing dishes from around the world</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="homeView" class="home-view">
+                <h2 class="section-title">Featured Recipes</h2>
+                <div id="recipeGrid" class="recipe-grid">
+                </div>
+            </section>
+
+            <!-- Recipe Detail View -->
+            <section id="detailView" class="detail-view hidden">
+                <button id="backButton" class="back-button">← Back to Recipes</button>
+                
+                <article class="recipe-detail">
+                    <img id="detailImage" src="" alt="" class="detail-image">
+                    
+                    <div class="detail-content">
+                        <h2 id="detailName" class="detail-name"></h2>
+                        
+                        <div class="recipe-meta">
+                            <div class="meta-item">
+                                <span class="meta-icon">⏱️</span>
+                                <span id="detailTime"></span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-icon">🍽️</span>
+                                <span id="detailServings"></span>
+                            </div>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3 class="section-heading">Ingredients</h3>
+                            <ul id="detailIngredients" class="ingredients-list">
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3 class="section-heading">Instructions</h3>
+                            <ol id="detailInstructions" class="instructions-list">
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Delicious Recipes. Made with Ahmed Daboor for food lovers.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

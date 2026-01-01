@@ -38,7 +38,7 @@ const recipes = [
         image: "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=800&h=600&fit=crop",
         time: "90 minutes",
         servings: "6 servings",
-        description: "A traditional Jordanian upside-down rice dish with tender meat, vegetables, and aromatic spices.",
+        description: "A traditional Jordanian rice dish with tender meat, vegetables, and aromatic spices.",
         ingredients: [
             "2 cups basmati rice",
             "500g chicken or lamb, cut into pieces",
@@ -212,4 +212,5 @@ backButton.addEventListener('click', showHomeView);
 
 document.addEventListener('DOMContentLoaded', () => {
     renderRecipeCards();
+
 });
